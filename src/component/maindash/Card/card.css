@@ -1,0 +1,51 @@
+
+.dash-card{
+    margin-bottom: 30px;
+}
+
+.cardbody{
+
+ border-radius: 10px;
+ margin-bottom: 10px;
+ margin: 10px;
+ padding: 10px;
+ background-color: aliceblue;
+ box-shadow: 0 0 6px black;
+ 
+ display: grid;
+ grid-template-areas: 
+
+ "heading . . . . icon"
+ "content . . . . icon"
+ 
+ ;
+
+}
+
+#cardheading{
+
+    font-weight: bolder;
+    font-size: 12px;
+
+    grid-area: heading;
+}
+
+.cardcontent{
+ 
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: grey;
+    grid-area: content;
+    display: flex;
+}
+
+.cardicon{
+    
+    grid-area: icon;
+}
+
+.progresscard{
+    width: 150px;
+    margin-left: 10px;
+}

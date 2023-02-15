@@ -1,0 +1,60 @@
+
+
+.maindash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    overflow-y: hidden;
+}
+.tittle{
+    /* border: 1px solid black; */
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-areas: 
+    
+    "title . . . . . . btn"
+    
+    ;
+}
+.dash-title{
+    /* border: 1px solid black; */
+    grid-area: title;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.dash-btn{
+    /* border: 1px solid black; */
+    grid-area: btn;
+    margin-top: 10px;
+    
+}
+button{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 4px;
+}
+.colordash{
+    margin: 15px 10px 15px 10px;
+    
+}
+.colordiv{
+/* border: 1px solid black; */
+margin: 10px;
+padding: 10px;
+border-radius: 10px;
+}
+
+.colortitle{
+    /* border: 1px solid black; */
+    margin: 5px;
+    padding: 5px;
+}
+.color{
+    /* border: 1px solid black; */
+    margin: 5px;
+    padding: 5px;
+    color: rgb(219, 216, 216);
+    font-size: 13px;
+}
