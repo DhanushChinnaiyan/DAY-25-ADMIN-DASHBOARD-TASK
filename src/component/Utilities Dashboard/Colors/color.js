@@ -1,12 +1,18 @@
 import React from 'react';
+import { Color } from '../../maindash/maindash';
 import './color.css';
 
 const ColorDash = () => {
     return(
-        <div>
-            <h1>Color Dashboard</h1>
+        <div className='colordashboard'>
+            <div className='colorDashTitle'>Color Dashboard</div>
+            <Color/>
         </div>
     )
 }
 
 export default ColorDash ;
+
+
+
+

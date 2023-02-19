@@ -19,7 +19,7 @@ const Sidebar = () =>{
     return(
          <div  style={{width: menushow? "13rem" : "6rem"}} className='sideBars'>
             <div className='menuIcon' style={{marginLeft:menushow? "170px" : "60px"}} ><GiHamburgerMenu color='black' size='30px' onClick={()=>setMenushow(!menushow)}/></div>
-            <div style={{width: menushow?"90%" :"80%"}} className='logo'>
+            <div style={{width: menushow?"90%" :"80%"}} className='logo' onClick={()=>history.push("/dashboard")}>
                 {menushow?<>
                 <FaReact size="60px" color='rgb(4, 94, 167)'/>
                 <span>ADMIN</span> </>

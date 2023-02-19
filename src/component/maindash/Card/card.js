@@ -18,7 +18,7 @@ const DashCard = () => {
                     {item.radioValue && 
                     <div className='progresscard'><ProgressBar variant='info' now={item.radioValue}/> </div>}
                     </div>
-                    <div className='cardicon'><item.icon size="40px" color='grey'/></div>
+                    <div className='cardicon'><item.icon size="40px" color='rgb(68, 67, 67)'/></div>
                     
                     </div>
                     

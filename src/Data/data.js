@@ -167,11 +167,7 @@ export const sidebardata =[
                        ]
             
               },
-              {
-                icon:IoBarChartSharp,
-                heading:"Charts",
-                path:"/charts"
-              },
+              
               {
                 icon:BsTable,
                 heading:"Tables",

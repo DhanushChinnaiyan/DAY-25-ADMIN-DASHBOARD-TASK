@@ -48,9 +48,10 @@
  background-color: white; */
 
 
-.logo>span{
+.logo{
     color: rgb(4, 94, 167);
     font-weight: bold;
+    cursor: pointer;
 }
 .admin{
     color: rgb(4, 94, 167);
@@ -148,4 +149,9 @@
 
 .submenuActive{
     background-color: rgb(190, 224, 253);
+}
+
+.menuIcon{
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
 }

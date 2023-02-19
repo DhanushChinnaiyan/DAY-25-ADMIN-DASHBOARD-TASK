@@ -2,6 +2,8 @@
 
 
 .projects{
+    border: 1px solid black;
+    width: 70vw;
  background-color: aliceblue;
  margin: 10px;
  margin-bottom: 30px;

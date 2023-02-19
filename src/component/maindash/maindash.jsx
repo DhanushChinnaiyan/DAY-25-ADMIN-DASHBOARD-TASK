@@ -11,7 +11,12 @@ const Maindash = () => {
     return(
 
         <div className="maindash">
-           <div className="tittle"> <div className="dash-title">Dashboard</div> <div className="dash-btn"><button> Generate Report</button></div></div>
+         <div className="tittle"> 
+           <div className="dash-title">Dashboard</div>
+              <div className="dash-btn">
+                <button> Generate Report</button>
+              </div>
+            </div>
        
               <DashCard/>
               <Project/>
@@ -23,7 +28,7 @@ const Maindash = () => {
 export default Maindash
 
 
-const Color = () =>{
+ export const Color = () =>{
     return(
         <div className="colordash">
             {colorData.map((item,idx)=>{
